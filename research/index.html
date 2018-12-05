@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Research | Desai Lab</title>
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="../skeleton/css/normalize.css">
+    <link rel="stylesheet" href="../skeleton/css/skeleton.css">
+    <link rel="stylesheet" href="../css/responsive_menu.css">
+    <link rel="stylesheet" href="../css/desai_lab_general.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– 
+    <link rel="icon" type="image/png" href="images/favicon.png"> -->
+    
+    <script src="../js/responsive_menu.js"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <div class="row"> 
+        <div class="title_part">
+            <div class="row">
+                <div class="twelve columns">
+                    <h1>The Desai Lab</h1>
+                </div>
+            </div>
+        </div> 
+ 
+        <div class="topnav twelve columns" id="myTopnav">
+            <a href="/">Home</a>
+            <a href="/research" class="active"><u>Research</u></a>
+            <a href="/publications">Publications</a>
+            <a href="/people">People</a>
+            <a href="/opportunities">Opportunities</a>
+            <a href="/contact">Contact</a>
+            <a href="/extra">Extra Fun Stuff</a>
+            <a href="javascript:void(0);" class="icon" onclick="menu_change()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+</div> 
+<div class="container">
+    <div class="row">
+        <div class="twelve column research_text" style="margin-top: 5%">
+            <h2>Research</h2>
+            <p>
+            Natural selection and other evolutionary forces lead to particular patterns of evolutionary dynamics, and they leave characteristic signatures on the genetic variation within populations.  We use a combination of theory and experiments to study the dynamics and population genetics of natural selection in asexual populations such as microbes and viruses.
+            </p>
+            <h3>Theory:  Evolutionary Dynamics and Population Genetics</h3>
+            <p>A major focus of population genetics is to infer the action of natural selection from the genetic variation we observe in sequence data. People typically do this by comparing what they see in data to the patterns we expect to see if selection was absent. When they find deviations, they interpret them according to simple intuition about how selection (or other forces) would skew the data. But this is often rather ad-hoc, because population genetic theory has struggled to provide precise predictions about what we should expect sequence data to look like in the presence of different types of selective pressures. That is, we don't really know what we're looking for. The problem is that each mutation originally occurs in a genome which has some set of other mutations. In asexual populations or on short distance scales in sexual genomes, selection can only act on these sets of mutations in their entirety. The mutations are physically linked, so their fates are not independent. In these situations, we know how neutrality shouldn't look, but not how selection should.</p>
+        </div>
+            <img  class="eight columns offset-by-two center_img" src='Images/theory2.jpg' />
+        <div class="twelve column research_text">
+            <p>A main goal of our theoretical work is to fill this gap in our understanding of the action of selection when linkage is important. This involves building theoretical models of evolutionary dynamics, and considering population genetics in the context of these models. Because selection tends to amplify the effects of rare mutations, this often involves situations where fluctuations are crucial, and out-of-equilibrium behavior is important. We have introduced several new approaches to analyzing evolutionary dynamics in such situations by developing techniques to understand the statistical behavior of large numbers of interacting random processes that are driven by fluctuations in a few rare types. This work has opened up new ways to understand the structure of genealogies and thus the statistics of genetic variation in these populations. We are using this approach to construct various types of effective coalescent approaches which provide a general framework for analyzing sequence data in the presence of selection.</p>
+            <h3>Experimental Evolution</h3>
+            <p>Sequence data from natural populations usually only provides information from a snapshot in time.  We can get much more information on evolutionary dynamics by actually observing these dynamics while they occur.  Experimental evolution offers the opportunity to do just that, so we are currently using evolution of experimental yeast populations to directly observe evolution in action.  We try to construct experiments in ways that allow us to infer which types of processes are most important in practice, and to measure  measure important evolutionary parameters such as distributions of mutational and epistatic effects.</p>
+            <img  class="eight columns offset-by-two center_img" src='Images/exptl1.jpg' />
+        <div class="twelve column research_text">
+            <p>A main challenge of experimental evolution is that much of the important dynamics that determines the long-term fate of individual mutations happens when those mutations are rare and therefore hard to observe experimentally.  We have developed a system which allows us to quickly detect certain types of mutations when they are at frequencies of a fraction of a percent within a population, allowing us to directly observe these dynamics of certain rare mutants.  This class of observable mutations provides a useful probe into evolutionary dynamics which can then be further supplemented by targeted sequencing efforts.</p>
+        </div>
+            <img  class="eight columns offset-by-two center_img" src='Images/exptl2.jpg' />
+        <div class="twelve column research_text">
+            <p>A second challenge is that some types of events are very unlikely to happen on laboratory timescales, but could still be crucial for long-term evolution of natural populations.  There is also an inherent randomness to evolution, so identical populations will often evolve very differently.  These problems inspired us to develop high-throughput approaches to experimental evolution which allow us to maintain thousands of evolving lines simultaneously.  This has allowed us to observe classes of mutational events which are thought to be quite important in nature but are rare enough that they have not been seen in a systematic way in earlier experiments.  It also gives us power to make use of the information contained in the variation we observe in outcomes between identically evolved populations.  We are currently taking advantage of these high-throughput techniques to investigate a variety of questions, such as the role of geographic structure in adaptation and the statistical structure of epistasis among beneficial mutations. 
+            </p>
+        </div>
+        <img  class="eight columns offset-by-two center_img" src='Images/exptl3.jpg' />
+    </div>
+</div>
+
+</body>
+</html>
