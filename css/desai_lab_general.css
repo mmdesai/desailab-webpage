@@ -101,7 +101,11 @@ html {
     margin-bottom: 10px;
 }
 
-
 #publication_list {
-    list-style: none;
+    list-style-position: outside;
+}
+
+#publication_list li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
 }
