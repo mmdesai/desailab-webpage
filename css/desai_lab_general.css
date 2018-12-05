@@ -101,3 +101,7 @@ html {
     margin-bottom: 10px;
 }
 
+
+#publication_list {
+    list-style: none;
+}
