@@ -62,23 +62,24 @@ html {
 }
 
 .people_row p3 {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .people_row p2 {
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .people_row p1 {
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 .people_row p {
+    font-size: 0.8em;
     margin-bottom: 4px;
 }
 
 .people_row {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .research_text h3 {
@@ -103,9 +104,23 @@ html {
 
 #publication_list {
     list-style-position: outside;
+    list-style-type: disc;
 }
 
 #publication_list li {
-    font-size: 1.1em;
-    margin-bottom: 15px;
+    font-size: 1.0em;
+    margin-bottom: 10px;
+    line-height: 18px;
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
+
+.alumni p {
+    font-size: 1.0em;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.opps h4 {
+    font-size: 2.0em;
 }
