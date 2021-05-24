@@ -1,0 +1,284 @@
+/* Main stylesheet */
+
+/*#region*/ /* NON GRAPH OVERALL LAYOUT */
+
+#yoda_everything {
+  width: 1200px;
+  height: 650px;
+  position: relative;
+  margin: 0px auto;
+}
+
+#yoda_title {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 250px;
+  top: 10px;
+  margin: 0px;
+  z-index: 2;
+  cursor: default;
+}
+
+#yoda_about {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  right: 250px;
+  top: 10px;
+  margin: 0px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+#loading_message {
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  right: 350px;
+  top: 300px;
+  z-index: 2;
+  animation: fadeIn 1s infinite alternate;
+}
+
+#yoda_about_div {
+  font-size: 1.2em;
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  width: 1028px;
+  z-index: 2;
+  text-align: center;
+  background-color: #DDD;
+  border: 4px solid black;
+  border-radius: 30px;
+  padding: 35px;
+  display: none;
+}
+
+#yoda_about_div p {
+  text-align: left;
+}
+
+#about_x_out {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  font-size:20px;
+  background-color: #AAA;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about_x_out:hover {
+  opacity: 0.6;
+}
+
+.antigen_button {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  text-anchor: middle;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.antigen_button:hover {
+  opacity: 0.7;
+}
+
+.antigen_active {
+  outline: 2px solid black;
+}
+
+#antigen_H1 {
+  left: 400px;
+}
+
+#antigen_H3 {
+  left: 550px;
+}
+
+#antigen_H9 {
+  left: 550px;
+}
+
+
+#antigen_FluB {
+  left: 700px;
+}
+
+#yoda_about:hover {
+  opacity: 0.5;
+}
+
+#yoda_left_bar {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  width: 220px;
+  height: 650px;
+}
+
+#yoda_violin_canvas {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 150px;
+  height: 500px;
+  background-color: aqua;
+}
+
+#yoda_ngl_viewer {
+  position: absolute;
+  left: 60px;
+  top: 625px;
+  width: 200px;
+  height: 200px;
+}
+
+#yoda_canvas {
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  width: 800px;
+  height: 580px;
+}
+
+#yoda_svg {
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  width: 900px;
+  height: 650px;
+}
+
+/*#endregion*/
+
+/*#region*/ /* LEFT BAR */
+
+#total_var_count {
+  padding:10px;
+  font-size: 20px;
+}
+
+.allele_div {
+  width: 200px;
+  height: 33px;
+  margin: 0px;
+  position: relative;
+  font-size: 19px;
+  text-align: center;
+  cursor: default;
+}
+
+.allele_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:left;
+}
+
+.allele_color_button {
+  width: 21px;
+  height: 21px;
+  margin-top: 3px;
+  margin-left:15px;
+  margin-right:8px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.allele_color_button:hover {
+  opacity:0.5;
+}
+
+.allele {
+  width: 25px;
+  height: inherit;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.allele:hover {
+  opacity: 0.5;
+}
+
+.allele_pos {
+  width: 40px;
+  height: inherit;
+}
+
+.allele_number {
+  width: 30px;
+  height: inherit;
+}
+
+.allele_freq {
+  width: 50px;
+  height: inherit;
+}
+
+.active_allele {
+  background-color: #eb8989;
+}
+
+.locked_allele {
+  border: 2px solid black;
+}
+
+.colored_allele {
+  background-color: #CCC;
+}
+
+.geno_label { 
+  font: 20px sans-serif; 
+  fill: black; 
+  text-anchor: middle;
+}
+
+#kd_axis {
+  font-size: 16px;
+}
+
+.kd_curve_axis {
+  font-size: 16px;
+}
+
+.x_axis_label {
+  font: 20px sans-serif; 
+  fill: black; 
+  text-anchor: middle;
+}
+
+.y_axis_label {
+  font: 20px sans-serif; 
+  fill: black; 
+  text-anchor: end;
+}
+
+#kd_curve_title {
+  font: 13px sans-serif;
+  fill: #333;
+}
+
+.germ_som_text {
+  font: 20px sans-serif; 
+  fill: #555555; 
+  text-anchor: middle;
+}
+
+/*#endregion*/
