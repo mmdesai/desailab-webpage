@@ -1,9 +1,11 @@
 html {
-    overflow-y: scroll; /* always show scroll bar */
+    overflow-y: scroll;
+    /* always show scroll bar */
 }
 
-.joke h1, .joke h2 {
-    margin-bottom:10px;
+.joke h1,
+.joke h2 {
+    margin-bottom: 10px;
     color: red;
     font-size: 4em;
     animation: blinker 1s linear infinite;
@@ -18,25 +20,25 @@ html {
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-    transform: rotate(30deg);
-    font-size: 2em;
-  }
+    50% {
+        opacity: 0;
+        transform: rotate(30deg);
+        font-size: 2em;
+    }
 }
 
 @keyframes spinner1 {
-  50% {
-    transform: rotate(30deg);
-    font-size: 2em;
-  }
+    50% {
+        transform: rotate(30deg);
+        font-size: 2em;
+    }
 }
 
 @keyframes spinner2 {
-  50% {
-    transform: rotate(360deg);
-    font-size: 7em;
-  }
+    50% {
+        transform: rotate(360deg);
+        font-size: 7em;
+    }
 }
 
 .full-width-img {
@@ -111,8 +113,8 @@ html {
     font-size: 1.0em;
     margin-bottom: 10px;
     line-height: 18px;
-    padding-left: 22px ;
-    text-indent: -22px ;
+    padding-left: 22px;
+    text-indent: -22px;
 }
 
 .alumni p {
