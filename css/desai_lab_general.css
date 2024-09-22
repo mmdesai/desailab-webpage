@@ -3,10 +3,6 @@ html {
     /* always show scroll bar */
 }
 
-.emph {
-    font-weight: bold;
-}
-
 #takeaway {
     font-size: 2rem;
     color: #404040;
