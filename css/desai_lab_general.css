@@ -7,6 +7,11 @@ h1 {
     padding-top: 2rem;
 }
 
+/* The Poppins font gets quite bold. Lighten it for in-text bolding. */
+strong {
+    font-weight: 600;
+}
+
 #takeaway {
     font-size: 2rem;
     color: #404040;
