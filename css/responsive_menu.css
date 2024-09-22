@@ -12,15 +12,16 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.5rem 1.3rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 2rem;
+    border-radius: 5px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #2FC2A1;
-    color: black;
+    background-color: #549F93;
+    color: white;
 }
 
 /* Add an active class to highlight the current page */
