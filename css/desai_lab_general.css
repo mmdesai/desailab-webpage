@@ -3,6 +3,10 @@ html {
     /* always show scroll bar */
 }
 
+h1 {
+    padding-top: 2rem;
+}
+
 #takeaway {
     font-size: 2rem;
     color: #404040;
