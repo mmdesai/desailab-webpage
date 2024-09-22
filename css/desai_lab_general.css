@@ -34,6 +34,10 @@ html {
     min-height: 100%
 }
 
+.people_row img {
+    border-radius: 15px;
+}
+
 .people_row p3 {
     font-size: 0.8em;
 }
