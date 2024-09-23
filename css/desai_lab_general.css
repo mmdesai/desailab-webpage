@@ -5,6 +5,7 @@ html {
 
 h1 {
     padding-top: 2rem;
+    text-align: center;
 }
 
 /* The Poppins font gets quite bold. Lighten it for in-text bolding. */

@@ -8,3 +8,16 @@ function menu_change() {
         x.className = "topnav";
     }
 }
+
+// Resize centered takeaway text according to screen size.
+function sizeTakeaway() {
+    const takeaway = document.getElementById('takeaway');
+    if (takeaway) {
+        const navbar = document.getElementById('nav-link-container');
+        const navbarLink = document.getElementById('home-nav-link');
+        const width = navbar.offsetWidth - 2 * (parseFloat(window.getComputedStyle(navbarLink).paddingLeft) + parseFloat(window.getComputedStyle(navbarLink).marginLeft));
+        takeaway.style.maxWidth = `${width}px`;
+    }
+}
+window.addEventListener('load', sizeTakeaway);
+window.addEventListener('resize', sizeTakeaway);

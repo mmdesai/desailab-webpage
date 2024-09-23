@@ -4,12 +4,20 @@
 .topnav {
     background-color: #FFF;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#nav-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
     color: black;
     text-align: center;
     padding: 0.5rem 1.3rem;
@@ -37,13 +45,26 @@
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+    .topnav {
+        display: block;
+        position: relative;
+    }
+
+    #nav-link-container {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
+    }
+
     .topnav a:not(:first-child) {
         display: none;
     }
 
     .topnav a.icon {
-        float: right;
         display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 }
 
@@ -51,12 +72,6 @@
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
-    }
-
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
     }
 
     .topnav.responsive a {
