@@ -94,8 +94,7 @@ strong {
     font-size: 1.0em;
     margin-bottom: 10px;
     line-height: 18px;
-    padding-left: 22px;
-    text-indent: -22px;
+    margin-left: 1rem;
 }
 
 .alumni p {
