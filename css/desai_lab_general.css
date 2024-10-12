@@ -13,6 +13,16 @@ strong {
     font-weight: 600;
 }
 
+.home-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
 #takeaway {
     font-size: 2rem;
     color: #404040;
