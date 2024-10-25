@@ -17,6 +17,7 @@ function sizeTakeaway() {
         const navbarLink = document.getElementById('home-nav-link');
         const width = navbar.offsetWidth - 2 * (parseFloat(window.getComputedStyle(navbarLink).paddingLeft) + parseFloat(window.getComputedStyle(navbarLink).marginLeft));
         takeaway.style.maxWidth = `${width}px`;
+        takeaway.style.visibility = 'visible';  // Reduces glitchy appearance of resizing
     }
 }
 window.addEventListener('load', sizeTakeaway);

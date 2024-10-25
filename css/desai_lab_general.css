@@ -26,6 +26,7 @@ strong {
 #takeaway {
     font-size: 2rem;
     color: #404040;
+    visibility: hidden;
 }
 
 .full-width-img {
